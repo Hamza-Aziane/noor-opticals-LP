@@ -1,0 +1,97 @@
+:root {
+    --color-primary: #1F2937;
+    --color-secondary: #3882F6;
+    --color-tertiary: #E5E7EB;
+    --color-header-text: #F9FAF8;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Changing default font size */
+html {
+    font-size: 62.5%;
+    font-family: Poppins, sans-serif;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: var(--color-primary);
+}
+
+.navbar .logo {
+    max-height: 60px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    font-size: 2rem;
+    gap: 3rem;
+}
+
+a, h1, .hero-text p, button {
+    color: var(--color-header-text);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 20px;
+}
+
+.hero-text {
+    line-height: 1.5;
+    align-self: center;
+    max-width: 45%;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+
+.hero-text p {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.shop-buttons {
+    margin-top: 35px;
+}
+
+.hero-text .shop-buttons > button {
+    background-color: var(--color-secondary);
+    border: none;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.hero-image {
+    max-width: 45%;
+    transform: rotate(-1deg);
+    padding: 10px;
+}
