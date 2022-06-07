@@ -37,14 +37,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 15px;
+    padding: 15px 20px 0;
 }
 
 .links {
     list-style-type: none;
     display: flex;
-    font-size: 2rem;
+    font-size: 1.7rem;
     gap: 3rem;
+}
+
+.links, h1 {
+    text-transform: uppercase;
 }
 
 a, h1, .hero-text p, button {
@@ -64,16 +68,19 @@ a {
 .hero-text {
     line-height: 1.5;
     align-self: center;
-    max-width: 45%;
+    max-width: 40%;
 }
 
 .hero-text h1 {
-    font-size: 4rem;
+    font-size: 2.3rem;
+    font-weight: lighter;
 }
 
 .hero-text p {
-    font-size: 3rem;
-    margin-bottom: 25px;
+    font-size: 4rem;
+    margin: 15px 0 25px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .shop-buttons {
