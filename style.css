@@ -102,3 +102,51 @@ a {
     transform: rotate(-1deg);
     padding: 10px;
 }
+
+/* Info Section */
+.info-section {
+    padding: 55px;
+}
+
+.info-section h2 {
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 65px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.card .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-header-text);
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card h4 {
+    font-size: 2rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
