@@ -48,11 +48,11 @@ header {
     gap: 3rem;
 }
 
-.navbar .links, .hero-text h1 {
+.navbar .links, .hero-text h1, button {
     text-transform: uppercase;
 }
 
-h1, .hero-text p, .shop-buttons button {
+h1, .hero-text p, button {
     color: var(--color-header-text);
 }
 
@@ -92,13 +92,13 @@ a {
     margin-top: 35px;
 }
 
-.hero-text .shop-buttons > button {
+button {
     background-color: var(--color-secondary);
     border: none;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 2rem;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 20px;
 }
 
@@ -156,7 +156,7 @@ a {
     font-size: 1.5rem;
 }
 
-/* Quote section */
+/* Inspiration section */
 .inspiration-section {
     background-color: var(--color-tertiary);
     color: var(--color-primary);
@@ -179,7 +179,6 @@ a {
     font-weight: lighter;
     font-style: italic;
 }
-
 
 .inspiration-section blockquote p::before {
     content: open-quote;
@@ -247,4 +246,41 @@ a {
     content: "\f061";
     font-size: 1.7rem;
     padding-left: 10px;
+}
+
+/* CTA-section */
+.cta-section {
+    display: flex;
+    padding: 55px;
+    justify-content: space-between;
+    line-height: 1.35;
+}
+
+.cta-section .cta-text {
+    color: var(--color-primary);
+    align-self: center;
+    text-align: center;
+    max-width: 40%;
+}
+
+.cta-section .cta-text h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.cta-section .cta-text p {
+    font-size: 2.3rem;
+    margin: 15px 0 35px;
+    font-weight: bold;
+}
+
+.cta-section .cta-text button {
+    padding: 10px 30px;
+}
+
+.cta-section .cta-image {
+    max-width: 50%;
+    padding-right: 20px;
+    transform: rotate(-1deg);
 }
