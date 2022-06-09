@@ -1,7 +1,6 @@
 :root {
     --color-primary: #1F2937;
-    /* --color-primary-light: #ffffff; */
-    --color-secondary: #3882F6;
+    --color-secondary: #3266b9;
     --color-tertiary: #E5E7EB;
     --color-header-text: #F9FAF8;
 }
@@ -166,7 +165,9 @@ button {
     display: flex;
     align-items: center;
     gap: 5%;
-    padding: 55px;
+    padding: 55px 0;
+    margin: 0 55px;
+    border-bottom: 1px double #1f293712;
 }
 
 .inspiration-section img {
@@ -205,7 +206,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 85px;
-    padding: 55px;
+    padding: 65px 55px;
 }
 
 .inspiration-section .cards .card {
@@ -251,7 +252,7 @@ button {
 /* CTA-section */
 .cta-section {
     display: flex;
-    padding: 55px;
+    padding: 75px 55px 95px;
     justify-content: space-between;
     line-height: 1.35;
 }
@@ -283,4 +284,23 @@ button {
     max-width: 50%;
     padding-right: 20px;
     transform: rotate(-1deg);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 65px;
+}
+
+footer .links {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+footer .links a, footer p {
+    color: var(--color-header-text);
+    font-size: 1.5rem;
 }
