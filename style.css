@@ -30,14 +30,14 @@ header {
 }
 
 .navbar .logo {
-    max-height: 60px;
+    max-height: 6rem;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 20px 0;
+    padding: 1.5rem 2rem 0;
 }
 
 .navbar .links {
@@ -66,7 +66,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 45px 20px;
+    padding: 4.5rem 2rem;
 }
 
 .hero-text {
@@ -82,13 +82,13 @@ a {
 
 .hero-text p {
     font-size: 4rem;
-    margin: 15px 0 25px;
+    margin: 1.5rem 0 2.5rem;
     font-weight: bold;
     line-height: 1.2;
 }
 
 .hero .shop-buttons {
-    margin-top: 35px;
+    margin-top: 3.5rem;
 }
 
 button {
@@ -96,20 +96,20 @@ button {
     border: none;
     /* font-weight: bold; */
     font-size: 2rem;
-    padding: 10px 20px;
-    border-radius: 20px;
-    margin-right: 20px;
+    padding: 0.5em 1em;
+    border-radius: 2rem;
+    margin-right: 2rem;
 }
 
 .hero .hero-image {
     max-width: 45%;
     transform: rotate(-1deg);
-    padding: 10px;
+    padding: 1rem;
 }
 
 /* Info section */
 .info-section {
-    padding: 55px;
+    padding: 5.5rem;
 }
 
 .info-section h2 {
@@ -123,15 +123,15 @@ button {
 .info-section .cards {
     display: flex;
     justify-content: center;
-    gap: 35px;
-    margin-top: 65px;
+    gap: 3.5rem;
+    margin-top: 6.5rem;
 }
 
 .info-section .cards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 2rem;
     color: var(--color-primary);
     text-align: center;
 }
@@ -143,8 +143,8 @@ button {
     color: var(--color-header-text);
     background-color: var(--color-secondary);
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
 }
 
 .info-section .cards .card h4 {
@@ -164,9 +164,9 @@ button {
 .inspiration-section .quote {
     display: flex;
     align-items: center;
-    gap: 5%;
-    padding: 55px 0;
-    margin: 0 55px;
+    gap: 5rem;
+    padding: 5.5rem 0;
+    margin: 0 5.5rem;
     border-bottom: 1px double #1f293712;
 }
 
@@ -192,21 +192,21 @@ button {
 .inspiration-section blockquote p::before,
 .inspiration-section blockquote p::after {
     font-size: 4rem;
-    padding: 0 10px;
+    padding: 0 1rem;
 
 }
 
 .inspiration-section figcaption {
     font-size: 2rem;
     text-align: right;
-    padding-right: 25px;
+    padding-right: 2.5rem;
 }
 
 .inspiration-section .cards {
     display: flex;
     justify-content: center;
-    gap: 85px;
-    padding: 65px 55px;
+    gap: 8.5rem;
+    padding: 6.5rem 5.5rem;
 }
 
 .inspiration-section .cards .card {
@@ -214,11 +214,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 3.5rem;
     background-color: var(--color-header-text);
-    padding: 30px 0 0;
+    padding: 3rem 0 0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: var(--color-primary);
     justify-content: space-between;
 }
@@ -237,8 +237,8 @@ button {
     width: 100%;
     background-color: var(--color-primary);
     color: var(--color-header-text);
-    padding: 15px;
-    border-radius: 0 0 10px 10px;
+    padding: 1.5rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .inspiration-section .cards .card a::after {
@@ -246,13 +246,13 @@ button {
     font-weight: 600;
     content: "\f061";
     font-size: 1.7rem;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 /* CTA-section */
 .cta-section {
     display: flex;
-    padding: 75px 55px 95px;
+    padding: 7.5rem 5.5rem 9.5rem;
     justify-content: space-between;
     line-height: 1.35;
 }
@@ -272,17 +272,17 @@ button {
 
 .cta-section .cta-text p {
     font-size: 2.3rem;
-    margin: 15px 0 35px;
+    margin: 1.5rem 0 3.5rem;
     font-weight: bold;
 }
 
 .cta-section .cta-text button {
-    padding: 10px 30px;
+    padding: 1rem 3rem;
 }
 
 .cta-section .cta-image {
     max-width: 50%;
-    padding-right: 20px;
+    padding-right: 2rem;
     transform: rotate(-1deg);
 }
 
@@ -294,7 +294,7 @@ footer {
 footer .container {
     display: flex;
     justify-content: space-between;
-    padding: 25px 65px;
+    padding: 2.5rem 6.5rem;
 }
 
 footer .links {
